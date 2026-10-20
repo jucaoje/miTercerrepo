@@ -34,3 +34,8 @@ def get_starwars_warriors():
 def get_warriors_got():
     rows = ["Jon Snow", "Daenerys Targaryen", "Arya Stark", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
     return rows
+
+@app.get("/cursosplatzi")
+def get_cursos_platzi():
+    rows = ["Python para no programadores", "Desarrollo web con FastAPI", "Machine Learning con Python"]
+    return rows
